@@ -4,7 +4,7 @@ def getmessagetemplate():
     """This function reads and returns your letter template"""
 
     try:
-        with open('message.html', 'r', encoding='utf-8') as msg:
+        with open('message.txt', 'r', encoding='utf-8') as msg:
             message = msg.read()
             return message
     except Exception:
